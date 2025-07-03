@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-2 dark_bg">
+                <div class="sidebar p-2">
+                    <div class="logo fs-3 fw-bold text-white mb-4">Dash UI</div>
+                    <div class="menu">
+                        <ul>
+                            <li class="mb-3 active"><a href="#">
+                                    <i class="ri-home-7-line me-1"></i>
+                                    Dashboard
+                                </a></li>
+                            <span class="text">LAYOUTS AND PAGES</span>
+
+                            <li class="mb-3">
+                                <a class="d-flex justify-content-between" data-bs-toggle="collapse"
+                                    href="#collapseExample" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    <div>
+                                        <i class="ri-stack-line me-1"></i>
+                                        <span>Pages</span>
+                                    </div>
+                                    <i class="ri-arrow-drop-down-line ri-xl"></i>
+                                </a>
+                                <div class="sub-nav collapse ps-4 pt-2" id="collapseExample">
+                                    <ul>
+                                        <li class="mb-2">
+                                            <a href="#">Home Page</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Profile</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Settings Page</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Pricing Page</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+
+                            <li class="mb-3">
+                                <a class="d-flex justify-content-between" data-bs-toggle="collapse"
+                                    href="#collapseExample1" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    <div>
+                                        <i class="ri-lock-line me-1"></i>
+                                        <span> Authentication</span>
+                                    </div>
+                                    <i class="ri-arrow-drop-down-line ri-xl"></i>
+                                </a>
+                                <div class="sub-nav collapse ps-4 pt-2" id="collapseExample1">
+                                    <ul>
+                                        <li class="mb-2">
+                                            <a href="#">Sign In</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Sign Up</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Forget Password</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+
+                            <li class="mb-3"><a href="#"><i class="ri-layout-2-line me-1"></i> Layouts</a></li>
+
+                            <span class="text">UI COMPONENTS</span>
+                            <li class="mb-3">
+                                <a class="d-flex justify-content-between" data-bs-toggle="collapse"
+                                    href="#collapseExample2" role="button" aria-expanded="false"
+                                    aria-controls="collapseExample">
+                                    <div>
+                                        <i class="ri-code-block me-1"></i>
+                                        <span> Components</span>
+                                    </div>
+                                    <i class="ri-arrow-drop-down-line ri-xl"></i>
+                                </a>
+                                <div class="sub-nav collapse ps-4 pt-2" id="collapseExample2">
+                                    <ul>
+                                        <li class="mb-2">
+                                            <a href="#">Buttons</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Badge</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Breadcrumbs</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Alerts</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Buttongroup</a>
+                                        </li>
+                                        <li class="mb-2">
+                                            <a href="#">Accordians</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+
+                            <li class="mb-3"><a href="#"><i class="ri-pages-line me-1"></i> Menus</a></li>
+                            <span class="text">DOCUMENTATION</span>
+                            <li class="mb-3"><a href="#"><i class="ri-article-line me-1"></i> Docs</a></li>
+                            <li class="mb-3"><a href="#"><i class="ri-article-line me-1"></i>Changing</a></li>
+                            <li class="mb-3"><a href="#"><i class="ri-download-cloud-2-line me-1"></i> Downloads</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-10  p-0">
+                <nav class="navbar navbar-light bg-white shadow">
+                    <div class="container-fluid">
+                        <div class="d-flex ">
+                            <a class="btn" href="#"> <i class="ri-menu-line fs-5"></i></a>
+                            <form>
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                        <div class="d-flex gap-3">
+                            <span class="small-circle bg-secondary-subtle btn">
+                                <i class="ri-notification-2-line"></i></span>
+
+                            <div class="dropdown dropstart">
+                                <a class="dropdown-toggle position-relative" href="#" type="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <img class="img-fluid small-circle" src="./assets/images/avatar-1.jpg" />
+                                    <div class="online-status"></div>
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="p-2 border-bottom border-1 fw-bold">
+                                        John Doe
+                                    </li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <i class="ri-user-line"></i>
+                                            Edit Profile
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <i class="ri-creative-commons-nd-line"></i>
+                                            Activity</a></li>
+                                    <li><a class="dropdown-item" href="#">
+                                            <i class="ri-logout-box-line"></i>
+                                            Signout</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+                <div class="container p-5">
+
+                <h3 class="">Overview</h3>
+                <hr>
+                <img src="./assets/images/profile-cover.jpg" class="img-fluid rounded-1">
+                <div>
+                    <img src="./assets/images/avatar-1.jpg" class="img-fluid big-circle">
+                </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
