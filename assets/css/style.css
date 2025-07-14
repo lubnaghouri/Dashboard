@@ -133,3 +133,9 @@ ul {
 .mt-6 {
      margin-top: 2rem !important;
 }
+.btn-white {
+    background-color: white;
+    padding: 10px;
+    color: #212b36;
+
+}
