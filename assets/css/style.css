@@ -123,3 +123,13 @@ ul {
 .tbl-heading :hover {
    color: blue;
 }
+.px-6 {
+    padding-left: 2rem !important; 
+    padding-right: 2rem !important;
+}
+.mt-n22 {
+    margin-top: -10rem !important;
+}
+.mt-6 {
+     margin-top: 2rem !important;
+}
